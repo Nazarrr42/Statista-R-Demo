@@ -1,0 +1,33 @@
+{
+  "name": "statista-demo-r",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --fix src",
+    "format": "prettier .  --write"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.6.0",
+    "@types/eslint__js": "^8.42.3",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^9.6.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-vue": "^9.27.0",
+    "postcss": "^8.4.39",
+    "prettier": "3.3.2",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^7.15.0",
+    "vite": "^5.3.1",
+    "vue-eslint-parser": "^9.4.3"
+  }
+}
