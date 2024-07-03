@@ -16,12 +16,11 @@ export default [
     rules: {
       // override/add rules settings here, such as:
       "vue/no-unused-vars": "error",
-      // quotes: ["error", "single"],
+      "no-debugger": "warning",
     },
 
     files: ["**/*.ts", "**/*.js", "**/*.vue", "**/*.gitignore"],
     languageOptions: {
-      // parser: tseslint.parser,
       parser: vueEslintParser,
       parserOptions: {
         parser: {
